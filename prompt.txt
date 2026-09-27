@@ -1,0 +1,25 @@
+PROMPT SỬ DỤNG CÔNG CỤ AI – REFACTOR INDEX.HTML SANG HTML5 SEMANTIC
+
+Hãy đọc file index.html và css/style.css của project hiện tại.
+
+Yêu cầu:
+1. Tạo một file mới có tên index_new.html.
+2. Giữ nguyên nội dung, hình ảnh, văn bản, liên kết và bố cục hiển thị của index.html ban đầu.
+3. Không tạo layout mới và không thay đổi thiết kế CSS hiện có.
+4. Chỉ refactor cấu trúc HTML sang các thẻ HTML5 semantic phù hợp:
+   - <header> cho phần đầu trang.
+   - <nav> cho thanh điều hướng.
+   - <main> cho nội dung chính.
+   - <section> cho các khu vực nội dung.
+   - <article> cho nội dung bài viết chính.
+   - <aside> cho sidebar.
+   - <footer> cho chân trang.
+   - Có thể dùng <figure>/<figcaption> cho nội dung hình ảnh khi phù hợp.
+5. Giữ nguyên các id/class quan trọng đang được CSS sử dụng để giao diện không bị thay đổi.
+6. Đảm bảo HTML hợp lệ, có <!DOCTYPE html>, lang="vi", charset UTF-8 và chỉ có một thẻ <title>.
+7. Không xóa hoặc đổi tên các file CSS, ảnh, font hoặc tài nguyên hiện có.
+8. Sau khi refactor, kiểm tra lại các đường dẫn tương đối tới CSS và images để index_new.html vẫn hiển thị đúng như index.html.
+
+Kết quả cần trả về:
+- File index_new.html hoàn chỉnh.
+- Giải thích ngắn gọn các thẻ HTML5 semantic đã thay đổi và lý do sử dụng chúng.
